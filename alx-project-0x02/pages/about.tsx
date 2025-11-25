@@ -1,9 +1,11 @@
 import Button from "@/components/common/Button";
+import Header from "@/components/layout/Header";
 import React from "react";
 
 const About = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-8">
+      <Header />
       <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-50">
         About Page
       </h1>

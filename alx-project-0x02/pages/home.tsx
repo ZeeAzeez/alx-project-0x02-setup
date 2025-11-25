@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import { type Post } from "@/interfaces";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center p-8">
+      <Header />
       <h1 className="mb-8 text-4xl font-bold text-zinc-900 dark:text-zinc-50">
         Home Page
       </h1>
