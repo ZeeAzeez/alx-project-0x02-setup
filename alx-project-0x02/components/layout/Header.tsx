@@ -6,8 +6,8 @@ const Header = () => {
     <header className="w-full bg-zinc-900 text-white shadow-md">
       <nav className="container mx-auto flex items-center justify-between p-4">
         <div className="text-xl font-bold">
-          <Link href="/Posts" className="hover:text-zinc-300 transition-colors">
-            My Project
+          <Link href="/posts" className="hover:text-zinc-300 transition-colors">
+            Posts
           </Link>
         </div>
         <ul className="flex space-x-6">
