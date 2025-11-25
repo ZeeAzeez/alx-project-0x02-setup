@@ -12,7 +12,8 @@ export interface PostModalProps {
 export interface Post {
   id: number;
   title: string;
-  content: string;
+  body: string;
+  userId: number;
 }
 
 export interface ButtonProps {
@@ -22,4 +23,10 @@ export interface ButtonProps {
     shape?: "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full";
     onClick?: () => void;
     children: React.ReactNode;
+}
+
+export interface PostProps{
+    title: string;
+    content: string;
+    userId: number;
 }

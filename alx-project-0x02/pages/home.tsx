@@ -12,7 +12,8 @@ const Home = () => {
     const newPost: Post = {
       id: Date.now(),
       title,
-      content,
+      body: content,
+      userId: 1,
     };
     setPosts([newPost, ...posts]);
   };
@@ -47,7 +48,7 @@ const Home = () => {
           </h2>
           <div className="grid w-full gap-6 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => (
-              <Card key={post.id} title={post.title} content={post.content} />
+              <Card key={post.id} title={post.title} content={post.body} />
             ))}
           </div>
         </div>
