@@ -1,4 +1,3 @@
-// pages/posts.tsx
 import React from "react";
 import PostCard from "@/components/common/PostCard";
 import { Post } from "@/interfaces";
