@@ -1,3 +1,4 @@
+import Button from "@/components/common/Button";
 import React from "react";
 
 const About = () => {
@@ -9,6 +10,18 @@ const About = () => {
       <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
         Learn more about our project on this page!
       </p>
+
+      <div>
+        <Button
+          type="button"
+          size="small"
+          shape="rounded-full"
+          className="bg-blue-500"
+          onClick={() => alert("Button clicked!")}
+        >
+          Click Me
+        </Button>
+      </div>
     </div>
   );
 };
