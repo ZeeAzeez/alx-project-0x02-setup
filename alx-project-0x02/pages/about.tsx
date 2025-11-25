@@ -21,6 +21,33 @@ const About = () => {
         >
           Click Me
         </Button>
+        <Button
+          type="button"
+          size="small"
+          shape="rounded-full"
+          className="bg-blue-500"
+          onClick={() => alert("Button clicked!")}
+        >
+          Click Me
+        </Button>
+        <Button
+          type="button"
+          size="medium"
+          shape="rounded-md"
+          className="bg-blue-500"
+          onClick={() => alert("Button clicked!")}
+        >
+          Click Me
+        </Button>
+        <Button
+          type="button"
+          size="large"
+          shape="rounded-full"
+          className="bg-blue-500"
+          onClick={() => alert("Button clicked!")}
+        >
+          Click Me
+        </Button>
       </div>
     </div>
   );
